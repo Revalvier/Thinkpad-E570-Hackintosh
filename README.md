@@ -37,3 +37,5 @@ What works:
 What doesn't:
 
 1. WiFi/BT (workaround using HornDis by Joshua Wise)
+
+Please edit the config.plist as this doesnt have the MLB, SMUUID or serial key. If you don't this won't work for you.
