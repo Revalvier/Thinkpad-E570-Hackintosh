@@ -1,41 +1,57 @@
-# Thinkpad-E570-Hackintosh
+<!-- omit in toc -->
+#  macOS on Lenovo E570
 
-This laptop is having the following specs:
+OpenCore config for Hackintosh OpenCore Lenovo E570.
 
-1. i5-7200U
+[![macOS](https://img.shields.io/badge/macOS-11.3.1-orange)](https://www.apple.com/tr/macos/big-sur/)
+[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.9-9cf)](https://github.com/acidanthera/OpenCorePkg)
+[![release](https://img.shields.io/badge/download-lastest%20version-blue.svg)](https://github.com/relaxewdy/Thinkpad-E570-Hackintosh-OpenCore/releases/tag/relaxewdy)
 
-2. UHD620
+## Screenshot
+<details>
+<summary>Big Sur</summary>
 
-3. 8gb RAM 2400
+![](https://i.loli.net/2021/02/17/svA1zWm6CrGBDu3.png)
 
-4. NVidia 940MX (disabled via wegnoegpu)
+</details>
 
-5. 512gb Intel NVMe
+<!-- omit in toc -->
+## Hardware
 
-6. 240gb Patriot Burst 2.5' SSD
+| **LENOVO** | Detail                                                  |
+| ------------------- | ------------------------------------------- |
+| Model Name      | Lenovo E570      |
+| CPU              | Intel(R) Core(TM) i5-7200U CPU @ 2.40GHz Kaby Lake             |
+| RAM           | 8 GB 2400 MHz DDR4    |
+| Graphic Card | Intel(R) HD Graphics 620 (1 GB)                     |
+| Wi-Fi             | QCA9377 (non-functional, uses HoRNDIS by Joshua Wise) |
+| Audio       | Conexant CX20753/4                       |
 
-7. 1Tb WD Blue
 
-8. Thinkpad BIOS rev. 2.03 (dvmt locked by OEM)
+## What are working (Almost Everything)
 
-So, I installed this on the NVMe, and then followed Dortania's guide for making this work with OpenCore 0.6.5.
+| **Details**                                |                                    |
+| -----------------------------------  | -------- |
+|  Turbo boost and CPU frequency stage |  ✅  |
+|  Intel UHD Graphics 620              |  ✅  |
+|  Brightness control                  |  ✅  |
+|  HDMI                                |  ✅  |
+|  Audio Conexant CX20753/4 layout-id: `15` |  ✅  |
+|  Realtek Ethernet RTL8111            |  ✅  | 
+|  iMessage         |  ✅  |
+|  USB 3.0 and Type-C (with Port Map        |  ✅  |
+|  Touchpad (14 gestures are working)   |  ✅  |
+|  Battery status   |  ✅  |
+|  S3 Sleep / Wake   |  ✅  |
+|  S4 Hibernation / Wake   |  ✅  |
+|  Camera   |  ✅  |
+|  Fn shortcut keys   |  ✅  |
+ 
 
-What works:
+## What You Have to Do
 
-1. QE/CI Metal
+- SMBIOS Settings
+- Rename config
 
-2. Audio (AppleALC @ alcid=15)
 
-3. USB (using personally-created USBMap.kext)
-
-4. Built-in en0 (for iMessage, etc)
-
-5. Camera
-
-6. FaceTime and such
-
-What doesn't:
-
-1. WiFi/BT (workaround using HornDis by Joshua Wise)
-
-Please edit the config.plist as this doesnt have the MLB, SMUUID or serial key. If you don't this won't work for you.
+Thanks to relaxewdy for making the custom DSDT patches.
