@@ -9,9 +9,9 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 
 ## Screenshot
 <details>
-<summary>Big Sur</summary>
+<summary>Monterey Beta</summary>
 
-![](https://i.loli.net/2021/02/17/svA1zWm6CrGBDu3.png)
+![](https://upload.wikimedia.org/wikipedia/en/9/98/MacOS_Monterey_Desktop.png)
 
 </details>
 
