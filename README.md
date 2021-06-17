@@ -3,7 +3,7 @@
 
 OpenCore config for Hackintosh OpenCore Lenovo E570.
 
-[![macOS](https://img.shields.io/badge/macOS-11.3.1-orange)](https://www.apple.com/tr/macos/big-sur/)
+[![macOS](https://img.shields.io/badge/macos-12.0%20beta-yellowgreen)](https://www.apple.com/macos/monterey-preview/)
 [![OpenCore](https://img.shields.io/badge/opencore-0.7.1-green)](https://github.com/acidanthera/OpenCorePkg)
 [![release](https://img.shields.io/badge/download-lastest%20version-blue.svg)](https://github.com/Revalvier/Thinkpad-E570-Hackintosh/releases/)
 
