@@ -3,15 +3,15 @@
 
 OpenCore config for Hackintosh OpenCore Lenovo E570.
 
-[![macOS](https://img.shields.io/badge/macos-12.0%20beta-yellowgreen)](https://www.apple.com/macos/monterey-preview/)
-[![OpenCore](https://img.shields.io/badge/opencore-0.7.1-green)](https://github.com/acidanthera/OpenCorePkg)
-[![release](https://img.shields.io/badge/download-lastest%20version-blue.svg)](https://github.com/Revalvier/Thinkpad-E570-Hackintosh/releases/)
+[![macOS](https://img.shields.io/badge/macos-13.0%20beta-yellowgreen)](https://www.apple.com/macos/ventura/)
+[![OpenCore](https://img.shields.io/badge/opencore-0.8.6-green)](https://github.com/acidanthera/OpenCorePkg)
+[![release](https://img.shields.io/badge/download-latest%20version-blue.svg)](https://github.com/Revalvier/Thinkpad-E570-Hackintosh/releases/)
 
 ## Screenshot
 <details>
-<summary>Monterey Beta</summary>
+<summary>Ventura Beta</summary>
 
-![](https://upload.wikimedia.org/wikipedia/en/9/98/MacOS_Monterey_Desktop.png)
+![](https://upload.wikimedia.org/wikipedia/en/7/70/MacOS_Ventura_Desktop.png)
 
 </details>
 
@@ -51,7 +51,6 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 ## What You Have to Do
 
 - SMBIOS Settings
-- Rename config
 
 
 Thanks to relaxewdy for making the custom DSDT patches.
