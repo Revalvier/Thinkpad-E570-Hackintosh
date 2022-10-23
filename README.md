@@ -9,7 +9,7 @@ OpenCore config for Hackintosh OpenCore Lenovo E570.
 
 ## Screenshot
 <details>
-<summary>Ventura Beta</summary>
+<summary>macOS Ventura Beta 6</summary>
 
 ![](https://upload.wikimedia.org/wikipedia/en/7/70/MacOS_Ventura_Desktop.png)
 
